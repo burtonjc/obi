@@ -1,4 +1,4 @@
-obi
+Obi
 ===
 > Your intelligent assistant in the cloud
 
