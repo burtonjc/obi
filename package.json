@@ -1,0 +1,44 @@
+{
+  "name": "obi",
+  "private": "true",
+  "version": "0.0.1",
+  "description": "Your intelligent assistant in the cloud.",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon --harmony index.coffee",
+    "test": "node --harmony ./node_modules/.bin/gulp test",
+    "watch": "node --harmony ./node_modules/.bin/gulp watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/burtonjc/obi.git"
+  },
+  "keywords": [
+    "assistant",
+    "obi",
+    "automated",
+    "cloud",
+    "opts"
+  ],
+  "author": "Jacob Burton (burtonjc35@gmail.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/burtonjc/obi/issues"
+  },
+  "homepage": "https://github.com/burtonjc/obi",
+  "dependencies": {
+    "coffee-script": "^1.9.2",
+    "q": "^1.2.0"
+  },
+  "devDependencies": {
+    "chai": "^2.2.0",
+    "chai-as-promised": "^5.0.0",
+    "chai-things": "^0.2.0",
+    "gulp": "^3.8.11",
+    "gulp-mocha": "^2.0.1",
+    "nodemon": "^1.3.7",
+    "sinon": "^1.14.1",
+    "sinon-as-promised": "^3.0.0",
+    "sinon-chai": "^2.7.0"
+  }
+}
