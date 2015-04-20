@@ -3,9 +3,9 @@
   "private": "true",
   "version": "0.0.1",
   "description": "Your intelligent assistant in the cloud.",
-  "main": "index.js",
+  "main": "index.coffee",
   "scripts": {
-    "start": "nodemon --harmony index.coffee",
+    "start": "nodemon --harmony",
     "test": "node --harmony ./node_modules/.bin/gulp test",
     "watch": "node --harmony ./node_modules/.bin/gulp watch"
   },
