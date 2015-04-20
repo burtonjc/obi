@@ -7,4 +7,4 @@ server = app.listen process.env.PORT, ->
   host = server.address().address
   host = 'localhost' if host is '::'
   port = server.address().port
-  console.log "Application running at: #{host}:#{port}".grey
+  console.log 'Application running at'.grey, "#{host}:#{port}".grey.bold
