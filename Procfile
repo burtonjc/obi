@@ -1,1 +1,1 @@
-web: coffee --nodejs --harmony index.coffee
+web: npm run production
