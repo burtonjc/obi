@@ -10,6 +10,7 @@ app = koa()
 app.keys = [OBI_SESSION_SECRET ? 'ObiIsAwesomelyInteligent']
 
 app
+  .use require('koa-cors')()
   .use logger
     name: 'obi-server'
     level: process.env.LOG_LEVEL || 'debug'
